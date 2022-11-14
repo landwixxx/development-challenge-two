@@ -1,5 +1,5 @@
 CREATE SCHEMA `patients-db` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
-drop table patients;
+drop table pacientes;
 create table if not exists patients(
 id int NOT NULL AUTO_INCREMENT,
 email varchar(45),

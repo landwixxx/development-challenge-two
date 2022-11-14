@@ -6,7 +6,7 @@ interface Body {
   birthDate: string;
 }
 
-export const BASE_URL = 'http://localhost:8000/pacientes';
+export const BASE_URL = 'http://18.230.195.10:8000/pacientes';
 
 export const List = async () =>
   fetch(BASE_URL, {

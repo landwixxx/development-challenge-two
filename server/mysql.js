@@ -6,7 +6,7 @@ var pool = mysql.createPool({
     "driver": "MySQL",
     "database": "patients-db",
     "user": "root",
-    "password": "controle*302109",
+    "password": "daniel*302104",
     "name": "db"    
 });
 
